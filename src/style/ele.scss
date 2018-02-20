@@ -1,0 +1,25 @@
+.avatarUploader{
+  width: 100%;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  .el-upload{
+    //width: 100%;
+    //border: 1px dashed #d9d9d9;
+    //border-radius: 6px;
+    //cursor: pointer;
+    //position: relative;
+    //overflow: hidden;
+  }
+  .el-upload:hover {
+    border-color: #20a0ff;
+  }
+  .el-input--mini .el-input__inner{
+    height: 24px;
+  }
+}
+
+
